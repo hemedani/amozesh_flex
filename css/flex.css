@@ -1,3 +1,6 @@
+/*body {
+  direction: rtl;
+}*/
 .ghab {
   font-size: 80px;
   padding: 10px;
@@ -18,7 +21,8 @@
 .ghab10 { background: #16a085 }
 
 .lafaf {
-  display: inline-flex;
+  display: flex;
   border: 5px solid goldenrod;
-  height: 100vh;
+  min-height: 100vh;
+  flex-direction: column-reverse;
 }
