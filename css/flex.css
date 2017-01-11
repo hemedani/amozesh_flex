@@ -1,0 +1,24 @@
+.ghab {
+  font-size: 80px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.ghab1 { background: #1abc9c }
+.ghab2 { background: #3498db }
+.ghab3 { background: #9b59b6 }
+.ghab4 { background: #34495e }
+.ghab5 { background: #f1c40f }
+.ghab6 { background: #e67e22 }
+.ghab7 { background: #e74c3c }
+.ghab8 { background: #bdc3c7 }
+.ghab9 { background: #2ecc71 }
+.ghab10 { background: #16a085 }
+
+.lafaf {
+  display: inline-flex;
+  border: 5px solid goldenrod;
+  height: 100vh;
+}
