@@ -31,26 +31,11 @@ html {
 .lafaf {
   display: flex;
   border: 5px solid rgb(57, 133, 235);
-  align-items: baseline;
   min-height: 100vh;
+  align-content: center;
+  flex-wrap: wrap;
 }
 
-.ghab1 {
-  font-size: 2rem;
-}
-
-.ghab2 {
-  font-size: 4rem;
-}
-
-.ghab3 {
-  font-size: 6rem;
-}
-
-.ghab4 {
-  font-size: 1rem;
-}
-
-.ghab5 {
-  font-size: 10rem;
+.ghab {
+  width: 33.333333%;
 }
