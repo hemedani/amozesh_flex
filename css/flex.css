@@ -10,7 +10,7 @@ html {
 }
 
 .ghab {
-  font-size: 80px;
+  font-size: 15px;
   padding: 10px;
   color: white;
   text-align: center;
@@ -30,24 +30,8 @@ html {
 
 .lafaf {
   display: flex;
-}
-
-.ghab {
-  flex: 1;
-}
-
-.ghab3 {
-  order: 3;
-}
-
-.ghab8 {
-  order: 2;
-}
-
-.ghab9 {
-  order: -1;
-}
-
-.ghab6 {
-  order: 1;
+  justify-content: space-between;
+  border: 5px solid mistyrose;
+  flex-direction: column;
+  min-height: 100vh;
 }
