@@ -1,6 +1,14 @@
 /*body {
   direction: rtl;
 }*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 .ghab {
   font-size: 80px;
   padding: 10px;
@@ -24,5 +32,10 @@
   display: flex;
   border: 5px solid goldenrod;
   min-height: 100vh;
-  flex-direction: column-reverse;
+  flex-wrap: wrap;
+}
+
+.ghab {
+  width: calc(33.3333333% - 10px);
+  margin: 5px;
 }
